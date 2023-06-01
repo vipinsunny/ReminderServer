@@ -12,8 +12,10 @@ const app = express()
 
 //cors
 app.use(cors({
-origin:'http://localhost:4200'
+// origin:'http://localhost:4200'
 // origin:'http://192.168.1.4:8080'
+origin:'http://127.0.0.1:8081/'
+
 }))
 
 //parse json
